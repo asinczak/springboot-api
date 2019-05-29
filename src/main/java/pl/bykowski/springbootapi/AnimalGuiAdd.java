@@ -1,6 +1,5 @@
 package pl.bykowski.springbootapi;
 
-import antlr.ParseTree;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.html.Label;
 import com.vaadin.flow.component.button.Button;
@@ -13,12 +12,9 @@ public class AnimalGuiAdd extends HorizontalLayout {
 
     private AnimalRepo animalRepo;
 
-
     private TextField textFieldName = new TextField("Podaj imię zwierzaka");
 
-
     private TextField textFieldAge = new TextField("Podaj wiek");
-
 
     private Button button = new Button("Add animal");
 
